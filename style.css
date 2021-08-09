@@ -1,0 +1,200 @@
+.page {
+    max-width: 800px;
+    margin: auto;
+    }
+    .menu-container{
+        height: 80px;
+        background-color: #23362b;
+        color: #efeeea;
+        font-family: 'Nunito Sans', sans-serif;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .menu-container .btn {
+        height: 40px;
+        width: auto;
+        padding: 2px;
+        line-height: 40px;
+        font-size: x-large;
+        font-weight: normal;
+        background-color: #23362b;
+        border-radius: 2px;
+        border-color: #23362b;
+        text-decoration: none;
+        text-align: center;
+        margin: 0 20px;
+    }
+    .menu-container .btn:hover {
+        background-color: #9bc7c5;
+        color: #efeeea;
+        }
+        .menu-container .btn:active {
+        color: #fed45b;
+        }
+        .menu-container .btn:link,.btn:visited {
+        color: #efeeea;
+        }
+
+    .top-container {
+        display: flex;
+        height: 445px;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .main-container {
+        /*height: 2750px;*/
+        display: flex;
+        align-items: space-between;
+        justify-content: center;
+    }
+        /*.main-container .left-side {
+        flex-grow: 2;
+        }  
+        .main-container .right-side{
+        flex-grow: 4; 
+        }*/
+    .v-container {
+        height: 2300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }  
+    img {
+        width: 335px;
+        height: auto;
+        filter: brightness(140%);
+        filter: contrast(50%);
+    }
+    .top-container .title {
+        /*flex-grow:2;*/
+        position: relative;
+        font-family: 'Nunito Sans', sans-serif;
+        width: 335px;
+        color: #fed45b;
+        text-align: left;
+        margin-bottom: 40px;
+        /*background: no-repeat center / 100% url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");*/
+
+    }
+    .title .text {
+        position: absolute;
+        line-height: 1;
+        bottom: 0;
+        left: 12%;
+        /*transform: translate(-50%, -50%);*/
+    }
+    .title .text h1 {
+        font-size: 72px;
+        margin: 0;
+    }
+    .title .text h4 {
+        font-size: 36px;
+        margin: 0;
+    }
+
+    .top-container .pre {
+        line-height: 1.5;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #23362b;
+        margin: 15px 15px;
+    }
+
+    .pre p {
+        font-size: large;
+    }
+
+    .square-list {
+        list-style-type: square;
+    }
+
+    .quote {
+        position: relative;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 52px;
+        height: auto;
+        font-weight: bold;
+        width: 335px;
+        background-color: #23362b; 
+        color: #fed45b;
+        text-align: left;
+        padding: 1px;
+        margin: 40px 0;
+    }
+
+    .quote blockquote::before {
+        content: '“';
+        position: absolute;
+        font-weight: bold;
+        top: -35px;
+        left: 0;
+        font-size: 130px;
+
+    }
+    .art {
+        line-height: 1.5;
+        margin-bottom: 50px;
+        font-family: 'Nunito Sans', sans-serif;
+        color: #23362b;
+        margin: 40px 15px;
+    }
+    .art h2 {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 40px;
+    }
+    .art h3 {
+        font-size: 22px;
+
+    }
+    .art p {
+        font-size: 16px;
+    }
+    .art h4 {
+        font-family: 'Halant', serif;
+        font-style: italic;
+        margin-top: -20px;
+        font-size: 15px;
+    }
+
+    .art li {
+        font-size: 15px;
+    }
+
+    .art ul {
+            margin-bottom: 50px;
+    }
+
+    hr {
+        height: 4px;
+        border-width:0;
+        color:#444444;
+        background-color:#444444;
+        margin: 40px 0;
+    }
+    .back-home{
+        background-color: #444444;  
+        width: 80px;
+        height: 80px;
+        border-radius:50%;
+
+        color: white;
+        font-size: 70px;
+        text-align: center;
+        text-decoration: none;
+
+        position: fixed;
+        bottom: 10%;
+        right: 10%;
+    }
+    .back-home:hover{
+        background-color: #23362b;
+    }
+    .back-home:active{
+        color: #fed45b;
+    }
+    .back-home:link {
+        color: #efeeea;
+    }
